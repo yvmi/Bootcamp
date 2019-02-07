@@ -227,5 +227,14 @@ Ejemplo:
 	else:
 		print (x, "es impar")
 
-#
-hhh
+## Clases
+
+### Como Definir una Clase
+
+		class NombredeClase():
+		    def __init__(self, atributo1, atributo2):
+		        self.atri1=atributo1
+		        self.atri2=atributo2
+
+		    def metodo1(self,arg):
+		        pass

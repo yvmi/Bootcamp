@@ -15,7 +15,7 @@ decimal = 42.0
 booleano = True # Puede ser True o False
 
 # Asignar una variable lista (list)
-lista = [numero, "Penguin", 442]
+lista = [10.0, "Penguin", 442]
 
 # Asignar una variable lista en una lista
 listota = [[12, 5], ["ay", "mama", lista]]
@@ -81,3 +81,15 @@ elif condicion3:
     dd
 else:
     asd
+
+##################
+# Clases
+##################
+# Definir una Clase
+class NombredeClase():
+    def __init__(self, atributo1, atributo2):
+        self.atri1=atributo1
+        self.atri2=atributo2
+
+    def metodo1(self,arg):
+        pass
