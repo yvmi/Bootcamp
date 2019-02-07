@@ -52,10 +52,10 @@ Entonces,
 
 #### Residuo: la operación módulo obtiene el resto de la división de un número por otro. Por ejemplo: 10%2=0 , 7%2=1
 
-	#Ejemplos:
+Ejemplos:
+		
 		110+15= 125 (suma)	    	3**2=9 (Potencia)		
 		11/2=5.5 (División)		11//2=5 (División Entera)
-
 
 
 ### Operadores de Cadenas	
@@ -64,7 +64,8 @@ Entonces,
 	*	Repetición
 
 
-	#Ejemplos: 
+Ejemplos: 
+
 		"hola" + "mundo" = “holamundo”  (concatenación)
 		“hola”*2 = ”holahola” (Repetimos la cadena “hola” dos veces)
 
@@ -76,7 +77,8 @@ Entonces,
 	>=	a >= b ¿a mayor o igual que b?
 	<=	a <= b ¿a menor o igual que b?
 
-	Ejemplos:
+Ejemplos:
+		
 		"hola" == 'hola'
 		True
 
@@ -101,7 +103,8 @@ Los operadores de asignación se utilizan para enlazar un valor con una variable
 	=	Asignación simple
 
 
-	#Ejemplo:
+Ejemplo:
+
 		x= “Benito Pérez”  	(Asigna el tipo de dato str a la variable x)
 
 ## FUNCIONES
@@ -167,7 +170,7 @@ son una estructura de datos y un tipo de dato con características especiales. L
 
 por ejemplo:
 
-	muestra = [1, 2.5, “Aleluya”', [5,6] ]
+	muestra = [1, 2.5, “Aleluya”, [5,6] ]
 
 	#Si quiero acceder a elementos en una posición específica lo hacemos poniendo el nombre de nuestra lista y dentro del corchete el índice.
 
@@ -180,7 +183,7 @@ por ejemplo:
 
 * Append(): nos permite agregar nuevos elementos a una lista, al final de ella
 	
-		muestra.append(10)   es  [1, 2.5, “Aleluya”', [5,6],10 ]
+		muestra.append(10)   es  [1, 2.5, “Aleluya”, [5,6],10 ]
 		muestra.append([2,5]) es [1, 2.5, “Aleluya”', [5,6], 10, [2,5] ]
 
 
@@ -218,7 +221,7 @@ Ejemplo:
 		if x % 2 == 0:
     			print (x,"es par")
 		else:
-		    print (x, "es impar")
+			print (x, "es impar")
 
 
 
