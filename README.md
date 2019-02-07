@@ -39,4 +39,64 @@ Entonces,
 * Si la expresión lógica es cierta, el resultado es True 
 * Si la expresión lógica NO es cierta, el resultado es False
 
+## OPERADORES
+### Operadores Aritmético	
+
+	+	Suma
+	-	Resta
+	*	Multiplicación
+	**	Exponente
+	/	División
+	//	División entera
+ 	%	Modulo o Residuo*
+
+#### Residuo: la operación módulo obtiene el resto de la división de un número por otro. Por ejemplo: 10%2=0 , 7%2=1
+
+	#Ejemplos:
+		110+15= 125 (suma)	    	3**2=9 (Potencia)		
+		11/2=5.5 (División)		11//2=5 (División Entera)
+
+
+
+### Operadores de Cadenas	
+	
+	+	Concatenación
+	*	Repetición
+
+
+	#Ejemplos: 
+		"hola" + "mundo" = “holamundo”  (concatenación)
+		“hola”*2 = ”holahola” (Repetimos la cadena “hola” dos veces)
+
+### Operadores de relación 	
+	==	a == b ¿a igual a b?
+	!=	a != b ¿a distinta de b?
+	>	a > b ¿a mayor que b?
+	<	a < b ¿a menor que b?
+	>=	a >= b ¿a mayor o igual que b?
+	<=	a <= b ¿a menor o igual que b?
+Ejemplos:
+"hola" == 'hola'
+True
+
+"hola" != 'Hola'
+True
+
+5 <= 3
+False
+
+2 * 9 == 6
+False
+
+Operadores lógicos	Evalúa
+or	a or b    (¿Se cumplen a o b?)
+and	a and b (¿Se comple a y b?)
+not	not x      (Contrario a x)
+
+Operadores de asignación.
+Los operadores de asignación se utilizan para enlazar un valor con una variable. El más común es: 
+=	Asignación simple
+
+Ejemplo:
+x= “Benito Pérez”  	(Asigna el tipo de dato str a la variable x)
 
