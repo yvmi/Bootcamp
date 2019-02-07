@@ -75,28 +75,152 @@ Entonces,
 	<	a < b ¿a menor que b?
 	>=	a >= b ¿a mayor o igual que b?
 	<=	a <= b ¿a menor o igual que b?
-Ejemplos:
-"hola" == 'hola'
-True
 
-"hola" != 'Hola'
-True
+	Ejemplos:
+		"hola" == 'hola'
+		True
 
-5 <= 3
-False
+		"hola" != 'Hola'
+		True
 
-2 * 9 == 6
-False
+		5 <= 3
+		False
 
-Operadores lógicos	Evalúa
-or	a or b    (¿Se cumplen a o b?)
-and	a and b (¿Se comple a y b?)
-not	not x      (Contrario a x)
+		2 * 9 == 6
+		False
 
-Operadores de asignación.
+### Operadores lógicos	
+
+	or	a or b  (¿Se cumplen a o b?)
+	and	a and b (¿Se comple a y b?)
+	not	not x   (Contrario a x)
+
+### Operadores de asignación
 Los operadores de asignación se utilizan para enlazar un valor con una variable. El más común es: 
-=	Asignación simple
+	
+	=	Asignación simple
+
+
+	#Ejemplo:
+		x= “Benito Pérez”  	(Asigna el tipo de dato str a la variable x)
+
+## FUNCIONES
+
+Una función es un bloque de código con un nombre asociado, que puede recibir argumentos como entrada, que realiza una serie de tareas y puede devolver un valor. Este bloque puede ser llamado cuando se necesite.
+Si necesitamos crear nuestra propia función tenemos que definirla, para eso usamos La sentencia def 
+
+#### OJO: La definición de una función no ejecuta el cuerpo de la función; esto es ejecutado solamente cuando la función es llamada.
+
+
+La sintaxis para una definición de función en Python es:
+
+	def nombre_de_la_funcion (PARAMETRO):
+		SENTENCIAS
+		return EXPRESION
+
+* PARÁMETRO: son los datos o la información que recibe la función
+* SENTENCIAS, es el bloque de sentencias en código que realiza cierta operación.
+* return ,  El valor que va a devolvernos la función una vez que la llamemos.
+* EXPRESION, es la expresión o variable que devuelve la sentencia return.
+
+Ejemplo: 
+	
+	#Definir una función que reciba dos números enteros, los sume y luego retorne la suma.
+
+	def sumar(valor1,valor2):
+		sum=valor1+valor2
+		return sum
+
+	#Llamar a la función definida anteriormente para sumar los números 3 y 7 y guardar eso en una variable llamada A
+		
+	A=sumar(3,7)
+
+	#Entonces A adquiere el valor de 3+7
+	
+	A=10
+
+
+Tambien existen funciones que vienen incluidas en el lenguaje, tales como:
+	
+* print() ----> imprime en pantalla lo que pongamos dentro de los paréntesis.
+	
+	Por ejemplo:
+	
+		print(“Mi remera es azul”)
+* len() ----> devuelve la longitud del dato que se introduzca dentro de los paréntesis.
+	Por ejemplo:
+	
+		len(“Villa Florida”) = 13  
+
+
+		#Si tenemos una lista llamada nombres
+		
+		nombres=[Maria, Pedro, Juan, Meli]
+		len(nombres)=4
+
+## LISTAS
+son una estructura de datos y un tipo de dato con características especiales. Lo especial de las listas en Python es que nos permiten almacenar cualquier tipo de valor como números enteros, números decimales, cadenas y hasta otras listas; 
+
+#### Una lista debe tener nombre luego un = y corchetes. Dentro de los corchetes se especifican los elementos separados por comas
+
+	lista=[element1, element2,...]
+
+por ejemplo:
+
+	muestra = [1, 2.5, “Aleluya”', [5,6] ]
+
+	#Si quiero acceder a elementos en una posición específica lo hacemos poniendo el nombre de nuestra lista y dentro del corchete el índice.
+
+	muestra[0]   es  1
+	muestra[1]   es 2.5
+	muestra[2]  es “Aleluya”
+	muestra[3]  es [5,6]
+	muestra[3][0]  es 5
+	muestra[3][1]  es 6
+
+* Append(): nos permite agregar nuevos elementos a una lista, al final de ella
+	
+		muestra.append(10)   es  [1, 2.5, “Aleluya”', [5,6],10 ]
+		muestra.append([2,5]) es [1, 2.5, “Aleluya”', [5,6], 10, [2,5] ]
+
+
+
+## CICLOS O LOOPS: 
+El bucle while se ejecutara repetidamente un bloque de codigo mientras su expresión condicional sea verdadera.
+	
+	while condicion:
+		#bloque de codigo
+
+El ciclo for repite el bloque de instrucciones un número predeterminado de veces. El bloque de instrucciones que se repite se suele llamar cuerpo del bucle 
+
+La sintaxis de un bucle for es la siguiente:
+
+	for variable in lista:   
+		#cuerpo del bucle
+
+
+* variable : es una variable de control que va tomando el valor de cada elemento de lista.
+
+#### OJO: se pueden también hacer for in cadenas, for in ranges, etc
+
+## CONDICIONALES
+
+* if: permite que un programa ejecute unas instrucciones cuando se cumplan una condición.
+	
+		if condición:
+			aquí van las órdenes que se ejecutan si la condición es cierta y que pueden ocupar varias líneas
+
+* else: es lo que se va a ejecutar en caso de que no se cumpla la condición del if
 
 Ejemplo:
-x= “Benito Pérez”  	(Asigna el tipo de dato str a la variable x)
+		
+		x=100
+		if x % 2 == 0:
+    			print (x,"es par")
+		else:
+		    print (x, "es impar")
+
+
+
+
 
