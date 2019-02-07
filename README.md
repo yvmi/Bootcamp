@@ -220,11 +220,11 @@ La sintaxis de un bucle for es la siguiente:
 
 Ejemplo:
 		
-		x=100
-		if x % 2 == 0:
-    			print (x,"es par")
-		else:
-			print (x, "es impar")
+	x=100
+	if x % 2 == 0:
+    		print (x,"es par")
+	else:
+		print (x, "es impar")
 
 
 
