@@ -12,12 +12,14 @@ Todos los valores que aparecen en un programa tienen un tipo. Estos son algunos 
 -Enteros (int): Los números enteros son aquellos números positivos o negativos que no tienen decimales. 
 Por ejemplo -3, -2, -1, 0, 1, 2, 3, etc.
 #### Al asignar un número a una variable esta pasará a tener tipo int
-	Ejemplos:
+Ejemplos:
+
 	a=5		x= -1000		b= -62		y= 555
         
 -Decimales(float): son los que tienen decimales. En Python se expresan mediante el tipo float. Se escribe primero la parte     entera, seguido de un punto y por último la parte decimal.
 	
-	Ejemplos:
+Ejemplos:
+
 	x= 1.22  -----> el número real 1.22 se le asigna a la variable x
 
 	a=  - 5.6 -----> el número real -5.6 se le asigna a la variable a
@@ -25,11 +27,12 @@ Por ejemplo -3, -2, -1, 0, 1, 2, 3, etc.
 ### Cadenas de texto (str): 
 A los valores que representan texto (alfanumérico) se les llama strings y tienen el tipo str. Pueden ser representados con texto entre comillas simples o comillas dobles
 
-	Ejemplos:
+Ejemplos:
+
 	“Hola Amigos”
 	“Febrero”
 
-	#Aquí asignamos la cadena “Pingüino” a la variable a 
+	# Aquí asignamos la cadena “Pingüino” a la variable a 
 	
 	a= “Pinguino” 
 
@@ -128,7 +131,7 @@ La sintaxis para una definición de función en Python es:
 
 Ejemplo: 
 	
-	#Definir una función que reciba dos números enteros, los sume y luego retorne la suma.
+	# Definir una función que reciba dos números enteros, los sume y luego retorne la suma.
 
 	def sumar(valor1,valor2):
 		sum=valor1+valor2
@@ -192,14 +195,14 @@ por ejemplo:
 El bucle while se ejecutara repetidamente un bloque de codigo mientras su expresión condicional sea verdadera.
 	
 	while condicion:
-		#bloque de codigo
+		# bloque de codigo
 
 El ciclo for repite el bloque de instrucciones un número predeterminado de veces. El bloque de instrucciones que se repite se suele llamar cuerpo del bucle 
 
 La sintaxis de un bucle for es la siguiente:
 
 	for variable in lista:   
-		#cuerpo del bucle
+		# cuerpo del bucle
 
 
 * variable : es una variable de control que va tomando el valor de cada elemento de lista.
@@ -211,7 +214,7 @@ La sintaxis de un bucle for es la siguiente:
 * if: permite que un programa ejecute unas instrucciones cuando se cumplan una condición.
 	
 		if condición:
-			aquí van las órdenes que se ejecutan si la condición es cierta y que pueden ocupar varias líneas
+			# aquí van las órdenes que se ejecutan si la condición es cierta y que pueden ocupar varias líneas
 
 * else: es lo que se va a ejecutar en caso de que no se cumpla la condición del if
 
