@@ -96,9 +96,9 @@ Ejemplos:
 
 ### Operadores lógicos
 
-	or	a or b  (¿Se cumplen a o b?)
-	and	a and b (¿Se comple a y b?)
-	not	not x   (Contrario a x)
+	or		a or b  (¿Se cumplen a o b?)
+	and		a and b (¿Se cumple a y b?)
+	not		not x   (Contrario a x)
 
 ### Operadores de asignación
 Los operadores de asignación se utilizan para enlazar un valor con una variable. El más común es:
@@ -227,7 +227,7 @@ Ejemplo:
 	else:
 		print (x, "es impar")
 
-## Clases
+## CLASES
 
 ### Como Definir una Clase
 
@@ -237,4 +237,4 @@ Ejemplo:
 		        self.atri2=atributo2
 
 		    def metodo1(self,arg):
-		        pass
+		        # Algo que quiero que mi objeto haga

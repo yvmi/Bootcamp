@@ -29,28 +29,34 @@ resta = suma - decimal
 division = 80 / 2
 multiplicacion = resta * 5
 exponente = 18 ** 2
-modulo= 45%2 # El operador modulo obtiene el resto de la división de un número por otro.
+modulo = 45 % 2 # El operador modulo obtiene el resto de la división de un número por otro.
 
 # Operadores de cadenas
-concatenacion = "Hola" + "Que tal"
-repeticion = cadena * 2
+concatenacion = "Hola" + "Que tal" # seria "HolaQue tal"
+repeticion = "Bla" * 2 # seria "BlaBla"
 
 # Operadores de relacion
-
+A == X # Es A igual a X?
+5 != 8 # Es 5 distinto a 8?
+100 > 2 # Es 100 mayor que 2?
+numero < suma # Es numero menor a suma?
 
 # Operadores logicos
-
+a or b    #  ¿Se cumplen a o b?
+opcion1 and opcion2 # ¿Se cumplen opcion1 y opcion2?
 
 # Operador de asignacion
-
+asign = 54 # Asignamos valor 54 a la variable asign
 
 ##################
 # Funciones
 ##################
-# Definir una Funcion
-def nombre_de_la_funcion(argumento):
+# Definir una Funcion que reciba dos cadenas y retorne una sola cadena
+def nombre_completo (nombre, apellido):
+    completo = nombre + apellido
+    return completo
 
-    return
+nombre_completo("Yumi", "Kikuchi")
 
 ##################
 # Ciclos
