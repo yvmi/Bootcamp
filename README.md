@@ -219,14 +219,10 @@ La sintaxis de un bucle for es la siguiente:
 * else: es lo que se va a ejecutar en caso de que no se cumpla la condición del if
 
 Ejemplo:
-		
+	
+	
 	x=100
 	if x % 2 == 0:
-    		print (x,"es par")
+		print (x,"es par")
 	else:
-		print (x, "es impar")
-
-
-
-
-
+	print (x, "es impar")
