@@ -53,45 +53,48 @@ asign = 54 # Asignamos valor 54 a la variable asign
 ##################
 # Definir una Funcion que reciba dos cadenas y retorne una sola cadena
 def nombre_completo (nombre, apellido):
-    completo = nombre + apellido
+    completo = nombre + " " + apellido # se debe sumar un espacio en blanco
     return completo
 
-nombre_completo("Yumi", "Kikuchi")
+nombre_completo("Ada", "Lovelace") # para que imprima Ada Lovelace
 
 ##################
 # Ciclos
 ##################
-# Ciclo for
-for valor in :
-    pass
+# Recorremos la lista participantes, e imprimir cada elemento de la lista.
+participantes = ["Benito", "Pepe", "Laura", "Leila"]
+for alumnos in participantes:
+    print (alumnos)
 
 # Ciclo while
-while condicion:
-    pass
+a = 0
+while a < 10 :
+    a=a+1
 
 ##################
 # Condicionales
 ##################
 # Condicional if y else
-if condicion:
-    jdk
+if hora == 12:
+    print ("Es hora de comer!!")
 else:
-    lkjj
+    print ("Come alambre")
 
 # Condicional if , elif y else
-if condition:
-    pass
-elif condicion:
-    dc
-elif condicion3:
-    dd
+pelota = "roja"
+if pelota == "verde":
+    print ("La pelota es verde")
+elif pelota == "roja":
+    print ("La pelota es roja")
+elif pelota == "azul":
+    print ("La pelota es azul")
 else:
-    asd
+    print ("No se que color es la pelota")
 
 ##################
 # Clases
 ##################
-# Definir una Clase
+# Definir una Clase 
 class NombredeClase():
     def __init__(self, atributo1, atributo2):
         self.atri1=atributo1
