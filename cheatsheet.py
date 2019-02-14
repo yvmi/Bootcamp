@@ -94,11 +94,26 @@ else:
 ##################
 # Clases
 ##################
-# Definir una Clase 
-class NombredeClase():
-    def __init__(self, atributo1, atributo2):
-        self.atri1=atributo1
-        self.atri2=atributo2
+# Definir una Clase
+class Persona():
+    def __init__(self, nombre = " ", edad = 0, cabello = " "):
+        self.name = nombre
+        self.age = edad
+        self.hair = cabello
 
-    def metodo1(self,arg):
-        pass
+    def cumpleanos(self):
+        new_age = self.age + 1
+        return new_age
+
+    def tenhido(self, color):
+        self.hair = color
+        new_color = self.hair
+        return new_color
+
+persona1 = Persona("Leo", 16, "Negro") # Creamos el objeto persona1
+print(persona1.age) # Imprime la edad actual de persona1
+edad_final = persona1.cumpleanos() # llamamos al metodo cumpleanos
+print(edad_final) # imprime la nueva edad_final
+print(persona1.hair) # Imprime el color de cabello de persona1
+nuevo_look = persona1.tenhido("Verde") # llamamos el metodo tenhido
+print(nuevo_look) #imprime el nuevo color de cabello
