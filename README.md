@@ -227,14 +227,23 @@ Ejemplo:
 	else:
 		print (x, "es impar")
 
-## CLASES
+## Programación Orientada a Objetos (POO)
+Es un paradigma de programación que viene a innovar la forma de obtener resultados.
+
+## Clases
+Las clases son plantillas que agrupan comportamiento (métodos) y estados (atributos) de los futuros objetos.
+Los objetos son instancias de una clase.
 
 ### Como Definir una Clase
 
 		class NombredeClase():
 		    def __init__(self, atributo1, atributo2):
-		        self.atri1=atributo1
-		        self.atri2=atributo2
+		        self.atri1 = atributo1
+		        self.atri2 = atributo2
 
 		    def metodo1(self,arg):
 		        # Algo que quiero que mi objeto haga
+
+### Como instanciar un Objeto
+
+		objeto = NombredeClase(atributo1, atributo2)

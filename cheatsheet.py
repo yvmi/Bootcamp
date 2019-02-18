@@ -110,17 +110,17 @@ class Persona():
         new_color = self.hair
         return new_color
 
-# Creamos el objeto persona1
+# Instanciamos el objeto persona1
 persona1 = Persona("Leo", 16, "Negro")
 # Imprime la edad actual de persona1
 print(persona1.age)
-# llamamos al metodo cumpleanos
+# Llamamos al metodo cumpleanos
 edad_final = persona1.cumpleanos()
-# imprime la nueva edad_final
+# Imprime la nueva edad_final
 print(edad_final)
 # Imprime el color de cabello de persona1
 print(persona1.hair)
-# llamamos el metodo tenhido
+# Llamamos el metodo tenhido
 nuevo_look = persona1.tenhido("Verde")
-# imprime el nuevo color de cabello
-print(nuevo_look) 
+# Imprime el nuevo color de cabello
+print(nuevo_look)
