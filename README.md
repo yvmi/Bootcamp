@@ -228,7 +228,7 @@ Ejemplo:
 		print (x, "es impar")
 
 ## Programación Orientada a Objetos (POO)
-Es un paradigma de programación que viene a innovar la forma de obtener resultados. Se introducen los conceptos de clases, objetos, metodos, atributos, herencias
+Es un paradigma de programación que intenta abstraer y modelar los objetos del mundo real mediante clases.
 
 ## Clases
 Las clases son una definición de un grupo de métodos y atributos que tratan de abstraer el comportamiento y las características de un objeto del mundo real.
