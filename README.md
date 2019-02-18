@@ -231,7 +231,7 @@ Ejemplo:
 Es un paradigma de programación que viene a innovar la forma de obtener resultados. Se introducen los conceptos de clases, objetos, metodos, atributos, herencias
 
 ## Clases
-Las clases son plantillas que agrupan comportamiento (métodos) y estados (atributos) de los futuros objetos.
+Las clases son una definición de un grupo de métodos y atributos que tratan de abstraer el comportamiento y las características de un objeto del mundo real.
 Los objetos son instancias de una clase.
 
 ### Como Definir una Clase
