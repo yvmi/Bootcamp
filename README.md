@@ -1,6 +1,6 @@
 # Bootcamp
 
-Un material sobre lo que se esta desarrollando en el bootcamp.
+Este material busca hacer referencia a las principales reglas de sintaxis de Python 3 y recordarte los conceptos estudiados durante este Campamento de Codificación.
 
 ## VARIABLES
 En programación, las variables son espacios reservados en la memoria que, como su nombre indica, pueden cambiar de contenido a lo largo de la ejecución de un programa.
